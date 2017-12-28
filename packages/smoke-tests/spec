@@ -1,0 +1,9 @@
+---
+name: smoke-tests
+
+dependencies:
+- golang-1.8-linux
+
+files:
+- "**/*.go"
+- zk-smoketest/** # git cloned from https://github.com/phunt/zk-smoketest
